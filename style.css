@@ -1,4 +1,4 @@
-body{
+#index_sayfa{
 
     background: linear-gradient(90deg,
         #000 0%,
@@ -33,9 +33,10 @@ body{
         #fff 85%,
         #000 100%
   );
+}
 
-  /* background-color: aquamarine; */
-
+#egitimcv_sayfa{
+    
 }
 
 .show_bd{
