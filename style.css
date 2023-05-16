@@ -36,7 +36,7 @@
 }
 
 #egitimcv_sayfa{
-    
+    background-color: #0F4F34;
 }
 
 .show_bd{
@@ -49,19 +49,18 @@
     font-size: 50px;
     font-family: "Marvel", sans-serif;
 }
-.login-button{
-        font-size: 30px;
-        font-family:"Marvel", sans-serif;
-        color: black;       
-}
 
-.card{
+.card_index{
     opacity: 0.90;
     transition: 0.8s;
 }
 
-.card:hover{
+.card_index:hover{
     opacity: 1;
     transition: 0.8s;
     scale: 1.01;
+}
+
+.card_egitimcv{
+    background-color: white;
 }
