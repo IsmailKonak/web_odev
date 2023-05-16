@@ -38,7 +38,18 @@
 #egitimcv_sayfa{
     background-color: #0F4F34;
 }
+#sehrim_sayfa{
+    background-color: #ffd818	;
+}
 
+.carousel-caption{
+    background-color: rgba(0,0,0,0.25);
+    transition: 0.8s;
+}
+.carousel-caption:hover{
+    transition: 0.8s;
+    background-color: rgba(0,0,0,0.40);
+}
 .show_bd{
     border: solid red;
 }
@@ -62,4 +73,9 @@
 
 .card_egitimcv{
     background-color: white;
+}
+
+.card_sehrim{
+    background-color: #a51818;
+
 }
