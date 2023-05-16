@@ -51,12 +51,11 @@
 }
 
 .card_index{
-    opacity: 0.90;
+    scale: 1.;
     transition: 0.8s;
 }
 
 .card_index:hover{
-    opacity: 1;
     transition: 0.8s;
     scale: 1.01;
 }
