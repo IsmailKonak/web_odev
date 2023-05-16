@@ -1,0 +1,66 @@
+body{
+
+    background: linear-gradient(90deg,
+        #000 0%,
+        #fff 15%,
+        #000 25%,
+        #fff 30%,
+        #000 33%,
+        #fff 36%,
+        #000 39%,
+        #fff 41%,
+        #000 42%,
+        #fff 44%,
+        #000 45%,
+        #fff 46%,
+        #000 47%,
+        #fff 48%,
+        #000 49%,
+        #fff 50%,
+        #000 51%,
+        #fff 52%,
+        #000 53%,
+        #fff 54%,
+        #000 55%,
+        #fff 56%,
+        #000 58%,
+        #fff 59%,
+        #000 61%,
+        #fff 64%,
+        #000 67%,
+        #fff 70%,
+        #000 75%,
+        #fff 85%,
+        #000 100%
+  );
+
+  /* background-color: aquamarine; */
+
+}
+
+.show_bd{
+    border: solid red;
+}
+.navbar-w{
+    background-color: white;
+}
+.ust-baslik{
+    font-size: 50px;
+    font-family: "Marvel", sans-serif;
+}
+.login-button{
+        font-size: 30px;
+        font-family:"Marvel", sans-serif;
+        color: black;       
+}
+
+.card{
+    opacity: 0.90;
+    transition: 0.8s;
+}
+
+.card:hover{
+    opacity: 1;
+    transition: 0.8s;
+    scale: 1.01;
+}
