@@ -44,6 +44,9 @@
 #mirasimiz_sayfa{
     background-color: black;
 }
+#hobilerim_sayfa{
+    background-color: black;
+}
 
 .carousel-caption{
     background-color: rgba(0,0,0,0.25);
@@ -86,7 +89,27 @@
 .card_mirasimiz{
     background-color: #7F8086;
 }
+.card_hobilerim{
+    background-color: #0060AA;
+    color: #face22;
+    text-decoration: none;
+}
+.card_hobilerim::after{
+    background-color: #0060AA;
+    color: #face22;
+    text-decoration: none;
+}
+.card_hobilerim:hover{
+    background-color: #0060AA;
+    color: #face22;
+    transition: 0.8s;
+    scale: 1.02;
 
+}
+
+.news_image_border{
+    border: solid 3px #c50c02;
+}
 .batman_yellow{
     color: #FDE311;
 }
