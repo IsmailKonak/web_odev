@@ -41,6 +41,9 @@
 #sehrim_sayfa{
     background-color: #ffd818	;
 }
+#mirasimiz_sayfa{
+    background-color: black;
+}
 
 .carousel-caption{
     background-color: rgba(0,0,0,0.25);
@@ -78,4 +81,12 @@
 .card_sehrim{
     background-color: #a51818;
 
+}
+
+.card_mirasimiz{
+    background-color: #7F8086;
+}
+
+.batman_yellow{
+    color: #FDE311;
 }
