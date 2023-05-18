@@ -53,7 +53,7 @@
           <div class="card rounded">
             <div class="container">
               <div class="row my-3 justify-content-center">
-                <div class="col-5"> <p class="h3 text-center"> İletişim Formu</p></div>
+                <div class="col-sm-11 col-xs-12"> <p class="h3 text-center"> İletişim Formu</p></div>
               </div>
               <form action="iletisim.php" method="post">
                   <div class="form-group">
@@ -92,8 +92,10 @@
                     <label for="resim">Mutlu isen fotoğrafını yükle</label>
                     <input type="file" class="form-control-file" id="resim" name="resim">
                   </div>
-                  <button type="submit" class="btn btn-primary mt-2" onclick="validateForm()" >Gönder</button>
+                  <div class="col justify-content-around">
+                    <button type="submit" class="btn btn-primary mt-2" onclick="validateForm()" >Gönder</button>
                   <button type="reset" class="btn btn-primary mt-2">Sıfırla</button>
+                  </div>
     
               </form>
               
