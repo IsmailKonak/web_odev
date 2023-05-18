@@ -44,3 +44,39 @@ async function getNews(){
 }
 
 getNews();
+
+
+function validateForm() {
+  var isim = document.getElementById('isim').value;
+  var email = document.getElementById('email').value;
+  var gender = document.querySelector('input[name="gender"]:checked');
+  var country = document.getElementById('country').value;
+  var mesaj = document.getElementById('mesaj').value;
+
+  if (isim === '') {
+    alert('İsim alanı boş olamaz');
+    return;
+  }
+  if (email === '') {
+    alert('Email alanı boş olamaz');
+    return;
+  }
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    alert('Geçerli bir email adresi girin');
+    return;
+  }
+  if (!gender) {
+    alert('Cinsiyet seçimi yapınız');
+    return;
+  }
+  if (country === '') {
+    alert('Üniversite seçimi yapınız');
+    return;
+  }
+  if (mesaj === '') {
+    alert('Mesaj alanı boş olamaz');
+    return;
+  }
+  document.getElementById('iletisimForm').submit();
+}
