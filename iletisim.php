@@ -55,7 +55,7 @@
             $cinsiyet = $_POST['cinsiyet'];
             $universite = $_POST['universite'];
             $mesaj = $_POST['mesaj'];
-            
+
             // Resim dosyasının yolu ve adı
             $resimYolu = $_FILES['resim']['tmp_name'];
             $resimAdi = $_FILES['resim']['name'];
@@ -67,7 +67,7 @@
             ?>
 
             <div class="card">
-            <div class="card-header">Gönderilen İletişim Formu verileri</div>
+            <div class="card-header">İletişim Form Sonucu</div>
             <div class="card-body">
                 <h5 class="card-title">İsim Soyisim:</h5>
                 <p class="card-text"><?php echo $isim; ?></p>
