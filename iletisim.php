@@ -49,18 +49,15 @@
         <div class="row justify-content-center align-items-center" style="height: 80%;">
             <div class="col-8">
             <?php
-            // Form verilerini al
             $isim = $_POST['isim'];
             $email = $_POST['email'];
             $cinsiyet = $_POST['cinsiyet'];
             $universite = $_POST['universite'];
             $mesaj = $_POST['mesaj'];
 
-            // Resim dosyasının yolu ve adı
             $resimYolu = $_FILES['resim']['tmp_name'];
             $resimAdi = $_FILES['resim']['name'];
 
-            // Resim klasörüne resim dosyasını kaydet
             $hedefKlasor = 'resimler/';
             $hedefDosya = $hedefKlasor . $resimAdi;
             move_uploaded_file($resimYolu, $hedefDosya);
