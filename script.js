@@ -1,5 +1,5 @@
 async function getNews(){
-    await fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?q=artificial+intelligence&api-key=kvfAsh2JB6FIq3ZugnVuAknNCJcbdu0W')
+    await fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?q=artificial+intelligence&api-key=<YOU_API_KEY_HERE>')
     .then(d => d.json())
     .then(response => {
         const output = document.getElementById('news');
