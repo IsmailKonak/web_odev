@@ -15,7 +15,7 @@ $message2 = "Giriş Başarısız, Lütfen Tekrar Deneyiniz";
 if ($email == $k_adi && $password == $sifre) {
   
   echo '<script>
-            var message = "' . $message1 . '";
+            var message = "Sayın '.$email.'' . $message1 . '";
             var title = "Giriş Sistemi";
             var buttonLabel = "OK";
             alert(message);

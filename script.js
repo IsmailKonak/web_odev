@@ -42,9 +42,9 @@ async function getNews(){
         }
     })
 }
-
-getNews();
-
+if (window.location.href.includes('hobilerim.html')){
+getNews();  
+}
 
 function validateForm() {
   var isim = document.getElementById('isim').value;
